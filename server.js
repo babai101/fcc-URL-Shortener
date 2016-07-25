@@ -3,7 +3,7 @@ var mongo = require("mongodb").MongoClient;
 var mongoUrl = 'mongodb://localhost:27017/fcc-backend';
 var app = express();
 var valid_url = require("valid-url");
-var appUrl = 'https://backend-projects-babai101.c9users.io';
+var appUrl = 'https://gentle-beach-78778.herokuapp.com';
 
 function getRandomString(min, max) {
     return (Math.floor(Math.random() * (max - min) + min));
